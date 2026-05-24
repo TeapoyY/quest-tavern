@@ -1,0 +1,58 @@
+import { Quest } from '../types'
+
+export const SEED_QUESTS: Quest[] = [
+  {
+    id: 'q-001',
+    title: '酒馆的采购清单',
+    description: '去镇上采购麦酒、面包和腌肉，供给酒馆日常所需',
+    gold: 15,
+    difficulty: 'simple',
+    status: 'available',
+    createdAt: Date.now(),
+  },
+  {
+    id: 'q-002',
+    title: '猎杀森林野猪',
+    description: '野猪频繁出没，威胁过路商队，需前往翠绿林猎杀',
+    gold: 40,
+    difficulty: 'normal',
+    status: 'available',
+    createdAt: Date.now(),
+  },
+  {
+    id: 'q-003',
+    title: '护送商人车队',
+    description: '商队需要武装护卫，从镇子前往东部的矿工营地',
+    gold: 60,
+    difficulty: 'normal',
+    status: 'available',
+    createdAt: Date.now(),
+  },
+  {
+    id: 'q-004',
+    title: '驱除洞穴史莱姆',
+    description: '旧矿洞里出现了大量史莱姆，威胁到采矿工人的安全',
+    gold: 30,
+    difficulty: 'simple',
+    status: 'available',
+    createdAt: Date.now(),
+  },
+  {
+    id: 'q-005',
+    title: '寻找走失的小红帽',
+    description: '小女孩在采蘑菇时走失，据说最后出现在黑森林边缘',
+    gold: 50,
+    difficulty: 'normal',
+    status: 'available',
+    createdAt: Date.now(),
+  },
+  {
+    id: 'q-006',
+    title: '击败暗影盗贼团',
+    description: '深夜盗贼团盘踞在旧塔楼，需要有能力的人将其剿灭',
+    gold: 100,
+    difficulty: 'hard',
+    status: 'available',
+    createdAt: Date.now(),
+  },
+]
